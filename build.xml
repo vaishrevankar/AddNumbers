@@ -1,6 +1,6 @@
 <?xml version="1.0" ?> 
 <project name="Sub" default="war">
-
+<target name="build" />
 	<path id="compile.classpath">
 		<fileset dir="WebContent/WEB-INF/lib">
 			<include name="*.jar"/>
